@@ -1,0 +1,26 @@
+
+[dr542@xunil-04 Vector Dot Product]$ ./vector_dot_product 100000
+Generating random vectors with values between [-.5, .5].
+Generating dot product on the CPU.
+Gold Execution time = 0.000310s.
+Shared Memory Execution time = 0.000087s.
+Result on CPU: -10.608413, result on GPU: -10.608415.
+Epsilon: 0.000002.
+
+[dr542@xunil-04 Vector Dot Product]$ ./vector_dot_product 1000000
+Generating random vectors with values between [-.5, .5].
+Generating dot product on the CPU.
+Gold Execution time = 0.003160s.
+Shared Memory Execution time = 0.000339s.
+Result on CPU: 19.114368, result on GPU: 19.114487.
+Epsilon: 0.000118.
+
+[dr542@xunil-04 Vector Dot Product]$ ./vector_dot_product 10000000
+Generating random vectors with values between [-.5, .5].
+Generating dot product on the CPU.
+Gold Execution time = 0.017487s.
+Shared Memory Execution time = 0.001661s.
+Result on CPU: -37.536858, result on GPU: -37.537136.
+Epsilon: 0.000278.
+
+
